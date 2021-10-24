@@ -998,9 +998,9 @@ WebSocket</string>
        <widget class="QFrame" name="frame_6">
         <property name="geometry">
          <rect>
-          <x>690</x>
-          <y>700</y>
-          <width>171</width>
+          <x>710</x>
+          <y>670</y>
+          <width>181</width>
           <height>71</height>
          </rect>
         </property>
@@ -1010,67 +1010,6 @@ WebSocket</string>
         <property name="frameShadow">
          <enum>QFrame::Raised</enum>
         </property>
-        <widget class="QGroupBox" name="groupBox_4">
-         <property name="geometry">
-          <rect>
-           <x>0</x>
-           <y>0</y>
-           <width>171</width>
-           <height>71</height>
-          </rect>
-         </property>
-         <property name="title">
-          <string>NUC Screenshot</string>
-         </property>
-         <widget class="QPushButton" name="Button_nuc1_screenshot">
-          <property name="geometry">
-           <rect>
-            <x>10</x>
-            <y>30</y>
-            <width>71</width>
-            <height>31</height>
-           </rect>
-          </property>
-          <property name="font">
-           <font>
-            <weight>75</weight>
-            <italic>false</italic>
-            <bold>true</bold>
-            <strikeout>false</strikeout>
-            <stylestrategy>PreferDefault</stylestrategy>
-            <kerning>true</kerning>
-           </font>
-          </property>
-          <property name="text">
-           <string>NUC1</string>
-          </property>
-          <property name="checkable">
-           <bool>true</bool>
-          </property>
-         </widget>
-         <widget class="QPushButton" name="Button_nuc2_screenshot">
-          <property name="geometry">
-           <rect>
-            <x>90</x>
-            <y>30</y>
-            <width>71</width>
-            <height>31</height>
-           </rect>
-          </property>
-          <property name="font">
-           <font>
-            <weight>75</weight>
-            <bold>true</bold>
-           </font>
-          </property>
-          <property name="text">
-           <string>NUC2</string>
-          </property>
-          <property name="checkable">
-           <bool>true</bool>
-          </property>
-         </widget>
-        </widget>
        </widget>
        <widget class="QGroupBox" name="camera">
         <property name="geometry">
@@ -1167,8 +1106,8 @@ CAM</string>
        <widget class="QLabel" name="label_11">
         <property name="geometry">
          <rect>
-          <x>1030</x>
-          <y>730</y>
+          <x>710</x>
+          <y>770</y>
           <width>361</width>
           <height>121</height>
          </rect>
@@ -1178,6 +1117,83 @@ CAM</string>
         </property>
         <property name="pixmap">
          <pixmap>../resources/images/KUDOS2.png</pixmap>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_4">
+        <property name="geometry">
+         <rect>
+          <x>710</x>
+          <y>670</y>
+          <width>171</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>NUC Screenshot</string>
+        </property>
+        <widget class="QPushButton" name="Button_nuc1_screenshot">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>71</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <italic>false</italic>
+           <bold>true</bold>
+           <strikeout>false</strikeout>
+           <stylestrategy>PreferDefault</stylestrategy>
+           <kerning>true</kerning>
+          </font>
+         </property>
+         <property name="text">
+          <string>NUC1</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="Button_nuc2_screenshot">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>30</y>
+           <width>71</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>NUC2</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QLabel" name="label_12">
+        <property name="geometry">
+         <rect>
+          <x>1140</x>
+          <y>680</y>
+          <width>201</width>
+          <height>221</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../resources/images/army.jpg</pixmap>
         </property>
        </widget>
        <zorder>frame_5</zorder>
@@ -1200,6 +1216,8 @@ CAM</string>
        <zorder>frame_6</zorder>
        <zorder>camera</zorder>
        <zorder>label_11</zorder>
+       <zorder>groupBox_4</zorder>
+       <zorder>label_12</zorder>
       </widget>
      </widget>
     </item>

@@ -146,9 +146,17 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
    cat1_img.load(":/images/cat1.jpg");
    cat2_img.load(":/images/cat2.jpg");
 
-   ui.label_7->setPixmap(cat1_img);
-   ui.label_9->setPixmap(cat2_img);
+   army_img.load(":/images/army.jpg");
+   army2_img.load(":/images/army2.jpg");
+
+   KUM_mark_img.load(":/images/KMU_mark.png");
+
+  // ui.label_7->setPixmap(cat1_img);
+   ui.label_7->setPixmap(army2_img);
+  // ui.label_9->setPixmap(cat2_img);
+   ui.label_9->setPixmap(KUM_mark_img);
    ui.label_11->setPixmap(KUDOS_img);
+   ui.label_12->setPixmap(army_img);
 
 
 
@@ -430,7 +438,8 @@ void MainWindow::Arm_service()
 void MainWindow::Html()
 {
   //ROS_INFO("Html");
-  std::string command_html = "gnome-terminal -- firefox ~/catkin_ws/src/roslibjs/examples/HW_test_server_0927.html";
+  std::string command_html = "gnome-terminal -- firefox -new-window ~/catkin_ws/src/roslibjs/examples/HW_test_server_0927.html";
+  //https://wiki.mozilla.org/Firefox/CommandLineOptions
   const char *c_html = command_html.c_str();
   system(c_html);
 }

@@ -117,6 +117,10 @@ private:
         QPixmap cat1_img;
         QPixmap cat2_img;
 
+        QPixmap army_img;
+        QPixmap army2_img;
+        QPixmap KUM_mark_img;
+
 };
 
 }  // namespace launchgui
