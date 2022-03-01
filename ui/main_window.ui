@@ -24,6 +24,9 @@
    <layout class="QHBoxLayout">
     <item>
      <widget class="QScrollArea" name="scrollArea">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
       <widget class="QWidget" name="scrollAreaWidgetContents">
        <property name="geometry">
         <rect>
@@ -36,7 +39,7 @@
        <widget class="QTabWidget" name="tab_manager">
         <property name="geometry">
          <rect>
-          <x>0</x>
+          <x>-10</x>
           <y>20</y>
           <width>1431</width>
           <height>931</height>
@@ -47,6 +50,9 @@
           <width>100</width>
           <height>0</height>
          </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
         </property>
         <property name="locale">
          <locale language="English" country="Australia"/>
@@ -72,6 +78,12 @@
             <pointsize>12</pointsize>
            </font>
           </property>
+          <property name="styleSheet">
+           <string notr="true">	color: rgb(58, 134, 255);
+	background-color: Ivory;
+	border: 3px solid rgb(58, 134, 255);
+	border-radius: 5px;</string>
+          </property>
           <property name="text">
            <string>Get Mission</string>
           </property>
@@ -79,7 +91,7 @@
          <widget class="QPushButton" name="Button_Joy">
           <property name="geometry">
            <rect>
-            <x>820</x>
+            <x>830</x>
             <y>20</y>
             <width>111</width>
             <height>41</height>
@@ -90,6 +102,12 @@
             <pointsize>12</pointsize>
            </font>
           </property>
+          <property name="styleSheet">
+           <string notr="true">	color: rgb(58, 134, 255);
+	background-color: Ivory;
+	border: 3px solid rgb(58, 134, 255);
+	border-radius: 5px;</string>
+          </property>
           <property name="text">
            <string>JoyStick</string>
           </property>
@@ -97,7 +115,7 @@
          <widget class="QLabel" name="get_ready">
           <property name="geometry">
            <rect>
-            <x>760</x>
+            <x>770</x>
             <y>30</y>
             <width>51</width>
             <height>20</height>
@@ -113,7 +131,7 @@
          <widget class="QPushButton" name="Button_md">
           <property name="geometry">
            <rect>
-            <x>1040</x>
+            <x>1070</x>
             <y>20</y>
             <width>89</width>
             <height>41</height>
@@ -124,6 +142,12 @@
             <pointsize>12</pointsize>
            </font>
           </property>
+          <property name="styleSheet">
+           <string notr="true">	color: rgb(58, 134, 255);
+	background-color: Ivory;
+	border: 3px solid rgb(58, 134, 255);
+	border-radius: 5px;</string>
+          </property>
           <property name="text">
            <string>md_driver</string>
           </property>
@@ -131,11 +155,17 @@
          <widget class="QPushButton" name="Off_md">
           <property name="geometry">
            <rect>
-            <x>1170</x>
+            <x>1210</x>
             <y>20</y>
             <width>51</width>
             <height>41</height>
            </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">	color: rgb(251, 86, 7);
+	background-color: Ivory;
+	border: 2px solid rgb(251, 86, 7);
+	border-radius: 5px;</string>
           </property>
           <property name="text">
            <string>Off</string>
@@ -144,7 +174,7 @@
          <widget class="QLabel" name="state_label_6">
           <property name="geometry">
            <rect>
-            <x>1140</x>
+            <x>1170</x>
             <y>20</y>
             <width>31</width>
             <height>41</height>
@@ -160,11 +190,17 @@
          <widget class="QPushButton" name="Off_Joy">
           <property name="geometry">
            <rect>
-            <x>980</x>
+            <x>1000</x>
             <y>20</y>
             <width>51</width>
             <height>41</height>
            </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">	color: rgb(251, 86, 7);
+	background-color: Ivory;
+	border: 2px solid rgb(251, 86, 7);
+	border-radius: 5px;</string>
           </property>
           <property name="text">
            <string>Off</string>
@@ -173,9 +209,9 @@
          <widget class="QLabel" name="state_label_7">
           <property name="geometry">
            <rect>
-            <x>940</x>
+            <x>950</x>
             <y>20</y>
-            <width>67</width>
+            <width>31</width>
             <height>41</height>
            </rect>
           </property>
@@ -194,6 +230,10 @@
             <width>641</width>
             <height>431</height>
            </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">	color: rgb(58, 134, 255);
+	border: 1px solid rgb(58, 134, 255);</string>
           </property>
           <property name="frameShape">
            <enum>QFrame::Box</enum>
@@ -214,6 +254,9 @@
             <height>151</height>
            </rect>
           </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
           <property name="title">
            <string>Timer</string>
           </property>
@@ -232,9 +275,15 @@
             <rect>
              <x>10</x>
              <y>110</y>
-             <width>89</width>
+             <width>101</width>
              <height>25</height>
             </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">	color: rgb(58, 134, 255);
+	background-color: white;
+	border: 1px solid rgb(58, 134, 255);
+	border-radius: 5px;</string>
            </property>
            <property name="text">
             <string>Start</string>
@@ -263,11 +312,17 @@
           <widget class="QPushButton" name="Timer_reset">
            <property name="geometry">
             <rect>
-             <x>260</x>
+             <x>248</x>
              <y>110</y>
-             <width>89</width>
+             <width>101</width>
              <height>25</height>
             </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">	color: rgb(58, 134, 255);
+	background-color: white;
+	border: 1px solid rgb(58, 134, 255);
+	border-radius: 5px;</string>
            </property>
            <property name="text">
             <string>Reset</string>
@@ -278,9 +333,15 @@
             <rect>
              <x>130</x>
              <y>110</y>
-             <width>89</width>
+             <width>101</width>
              <height>25</height>
             </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">	color: rgb(58, 134, 255);
+	background-color: white;
+	border: 1px solid rgb(58, 134, 255);
+	border-radius: 5px;</string>
            </property>
            <property name="text">
             <string>Stop</string>
@@ -289,7 +350,7 @@
           <widget class="QLabel" name="label_6">
            <property name="geometry">
             <rect>
-             <x>30</x>
+             <x>40</x>
              <y>30</y>
              <width>41</width>
              <height>21</height>
@@ -305,7 +366,7 @@
           <widget class="QLabel" name="label_4">
            <property name="geometry">
             <rect>
-             <x>140</x>
+             <x>160</x>
              <y>30</y>
              <width>41</width>
              <height>21</height>
@@ -321,9 +382,9 @@
           <widget class="QLabel" name="label_5">
            <property name="geometry">
             <rect>
-             <x>270</x>
+             <x>280</x>
              <y>30</y>
-             <width>67</width>
+             <width>31</width>
              <height>17</height>
             </rect>
            </property>
@@ -341,6 +402,9 @@
             <height>291</height>
            </rect>
           </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
           <property name="frameShape">
            <enum>QFrame::Box</enum>
           </property>
@@ -352,19 +416,31 @@
             <rect>
              <x>10</x>
              <y>250</y>
-             <width>131</width>
+             <width>181</width>
              <height>31</height>
             </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">	color: white;
+	background-color: Lightgray;
+	border: 2px solid grey;
+	border-radius: 5px;</string>
            </property>
           </widget>
           <widget class="QPushButton" name="Button_Start">
            <property name="geometry">
             <rect>
-             <x>220</x>
+             <x>280</x>
              <y>250</y>
              <width>61</width>
              <height>31</height>
             </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">	color: yellow;
+	background-color: rgb(58, 134, 255);
+	border-radius: 5px;
+	border: 2px solid blue;</string>
            </property>
            <property name="text">
             <string>▶</string>
@@ -373,11 +449,17 @@
           <widget class="QPushButton" name="Button_All_stop">
            <property name="geometry">
             <rect>
-             <x>150</x>
+             <x>210</x>
              <y>250</y>
              <width>51</width>
              <height>31</height>
             </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">	color: yello;
+	background-color: grey;
+	border-radius: 5px;
+	border: 2px solid black;</string>
            </property>
            <property name="text">
             <string>■</string>
@@ -394,11 +476,14 @@
            </property>
            <property name="font">
             <font>
-             <pointsize>11</pointsize>
+             <pointsize>12</pointsize>
             </font>
            </property>
            <property name="title">
             <string>Mission</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
            </property>
            <property name="flat">
             <bool>false</bool>
@@ -416,6 +501,12 @@
              <font>
               <pointsize>12</pointsize>
              </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">	color: rgb(58, 134, 255);
+	background-color: Ivory;
+	border: 2px solid rgb(58, 134, 255);
+	border-radius: 30px;</string>
             </property>
             <property name="text">
              <string>Auto Driving</string>
@@ -435,6 +526,12 @@
               <pointsize>12</pointsize>
              </font>
             </property>
+            <property name="styleSheet">
+             <string notr="true">	color: rgb(58, 134, 255);
+	background-color: Ivory;
+	border: 2px solid rgb(58, 134, 255);
+	border-radius: 30px;</string>
+            </property>
             <property name="text">
              <string>Stair</string>
             </property>
@@ -452,6 +549,12 @@
              <font>
               <pointsize>12</pointsize>
              </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">	color: rgb(58, 134, 255);
+	background-color: Ivory;
+	border: 2px solid rgb(58, 134, 255);
+	border-radius: 30px;</string>
             </property>
             <property name="text">
              <string>Parking</string>
@@ -471,6 +574,12 @@
               <pointsize>12</pointsize>
              </font>
             </property>
+            <property name="styleSheet">
+             <string notr="true">	color: rgb(58, 134, 255);
+	background-color: Ivory;
+	border: 2px solid rgb(58, 134, 255);
+	border-radius: 30px;</string>
+            </property>
             <property name="text">
              <string>Obstacle</string>
             </property>
@@ -488,6 +597,12 @@
              <font>
               <pointsize>12</pointsize>
              </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">	color: rgb(58, 134, 255);
+	background-color: Ivory;
+	border: 2px solid rgb(58, 134, 255);
+	border-radius: 30px;</string>
             </property>
             <property name="text">
              <string>Open Door</string>
@@ -582,6 +697,12 @@
               <height>41</height>
              </rect>
             </property>
+            <property name="styleSheet">
+             <string notr="true">	color: rgb(255, 0, 110);
+	background-color: white;
+	border: 2px solid rgb(255, 0, 110);
+	border-radius: 20px;</string>
+            </property>
             <property name="text">
              <string>Off</string>
             </property>
@@ -594,6 +715,12 @@
               <width>51</width>
               <height>41</height>
              </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">	color: rgb(255, 0, 110);
+	background-color: white;
+	border: 2px solid rgb(255, 0, 110);
+	border-radius: 20px;</string>
             </property>
             <property name="text">
              <string>Off</string>
@@ -608,6 +735,12 @@
               <height>41</height>
              </rect>
             </property>
+            <property name="styleSheet">
+             <string notr="true">	color: rgb(255, 0, 110);
+	background-color: white;
+	border: 2px solid rgb(255, 0, 110);
+	border-radius: 20px;</string>
+            </property>
             <property name="text">
              <string>Off</string>
             </property>
@@ -621,6 +754,12 @@
               <height>41</height>
              </rect>
             </property>
+            <property name="styleSheet">
+             <string notr="true">	color: rgb(255, 0, 110);
+	background-color: white;
+	border: 2px solid rgb(255, 0, 110);
+	border-radius: 20px;</string>
+            </property>
             <property name="text">
              <string>Off</string>
             </property>
@@ -633,6 +772,12 @@
               <width>51</width>
               <height>41</height>
              </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">	color: rgb(255, 0, 110);
+	background-color: white;
+	border: 2px solid rgb(255, 0, 110);
+	border-radius: 20px;</string>
             </property>
             <property name="text">
              <string>Off</string>
@@ -659,22 +804,36 @@
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>20</y>
+             <y>0</y>
              <width>171</width>
              <height>241</height>
             </rect>
            </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
            <property name="title">
-            <string>CAMERA</string>
+            <string>CAM</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
            </property>
            <widget class="QPushButton" name="Button_Front_CAM">
             <property name="geometry">
              <rect>
               <x>10</x>
-              <y>40</y>
+              <y>30</y>
               <width>81</width>
               <height>51</height>
              </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">	color: rgb(131, 56, 236);
+	background-color: white;
+	border: 2px solid rgb(131, 56, 236);
+	border-radius: 20px;</string>
             </property>
             <property name="text">
              <string>Front CAM</string>
@@ -684,10 +843,16 @@
             <property name="geometry">
              <rect>
               <x>110</x>
-              <y>50</y>
+              <y>40</y>
               <width>51</width>
-              <height>31</height>
+              <height>41</height>
              </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">	color: rgb(255, 0, 110);
+	background-color: white;
+	border: 2px solid rgb(255, 0, 110);
+	border-radius: 20px;</string>
             </property>
             <property name="text">
              <string>Off</string>
@@ -696,11 +861,17 @@
            <widget class="QPushButton" name="Button_Back_CAM">
             <property name="geometry">
              <rect>
-              <x>8</x>
-              <y>110</y>
+              <x>10</x>
+              <y>100</y>
               <width>81</width>
               <height>51</height>
              </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">	color: rgb(131, 56, 236);
+	background-color: white;
+	border: 2px solid rgb(131, 56, 236);
+	border-radius: 20px;</string>
             </property>
             <property name="text">
              <string>Back CAM</string>
@@ -710,10 +881,16 @@
             <property name="geometry">
              <rect>
               <x>110</x>
-              <y>120</y>
+              <y>110</y>
               <width>51</width>
-              <height>31</height>
+              <height>41</height>
              </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">	color: rgb(255, 0, 110);
+	background-color: white;
+	border: 2px solid rgb(255, 0, 110);
+	border-radius: 20px;</string>
             </property>
             <property name="text">
              <string>Off</string>
@@ -723,10 +900,16 @@
             <property name="geometry">
              <rect>
               <x>10</x>
-              <y>180</y>
-              <width>91</width>
+              <y>170</y>
+              <width>81</width>
               <height>51</height>
              </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">	color: rgb(131, 56, 236);
+	background-color: white;
+	border: 2px solid rgb(131, 56, 236);
+	border-radius: 20px;</string>
             </property>
             <property name="text">
              <string>Arm_CAM</string>
@@ -736,10 +919,16 @@
             <property name="geometry">
              <rect>
               <x>110</x>
-              <y>190</y>
+              <y>180</y>
               <width>51</width>
-              <height>31</height>
+              <height>41</height>
              </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">	color: rgb(255, 0, 110);
+	background-color: white;
+	border: 2px solid rgb(255, 0, 110);
+	border-radius: 20px;</string>
             </property>
             <property name="text">
              <string>Off</string>
@@ -774,6 +963,9 @@
             <height>281</height>
            </rect>
           </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
           <property name="frameShape">
            <enum>QFrame::Box</enum>
           </property>
@@ -805,8 +997,19 @@
              <height>91</height>
             </rect>
            </property>
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
            <property name="title">
             <string>COMM</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
            </property>
            <widget class="QPushButton" name="Button_html">
             <property name="geometry">
@@ -821,6 +1024,11 @@
              <font>
               <pointsize>16</pointsize>
              </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">	color: white;
+	background-color: rgb(58, 134, 255);
+	border-radius: 10px;</string>
             </property>
             <property name="text">
              <string>HTML</string>
@@ -840,6 +1048,11 @@
               <pointsize>13</pointsize>
              </font>
             </property>
+            <property name="styleSheet">
+             <string notr="true">	color: white;
+	background-color: rgb(251, 86, 7);
+	border-radius: 10px;</string>
+            </property>
             <property name="text">
              <string>Controll_pc
 WebSocket</string>
@@ -849,10 +1062,15 @@ WebSocket</string>
             <property name="geometry">
              <rect>
               <x>260</x>
-              <y>40</y>
+              <y>30</y>
               <width>41</width>
-              <height>41</height>
+              <height>51</height>
              </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">	color: white;
+	background-color: rgb(131, 56, 236);
+	border-radius: 10px;</string>
             </property>
             <property name="text">
              <string>Edit 
@@ -869,6 +1087,10 @@ WebSocket</string>
             <width>641</width>
             <height>371</height>
            </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">	color: rgb(58, 134, 255);
+	border: 1px solid rgb(58, 134, 255);</string>
           </property>
           <property name="frameShape">
            <enum>QFrame::Box</enum>
@@ -922,6 +1144,9 @@ WebSocket</string>
            <property name="title">
             <string>NUC Screenshot</string>
            </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
            <widget class="QPushButton" name="Button_nuc1_screenshot">
             <property name="geometry">
              <rect>
@@ -940,6 +1165,12 @@ WebSocket</string>
               <stylestrategy>PreferDefault</stylestrategy>
               <kerning>true</kerning>
              </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(131, 56, 236);
+	background-color: white;
+	border: 2px solid rgb(131, 56, 236);
+	border-radius: 10px;</string>
             </property>
             <property name="text">
              <string>NUC1</string>
@@ -962,6 +1193,12 @@ WebSocket</string>
               <weight>75</weight>
               <bold>true</bold>
              </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(131, 56, 236);
+	background-color: white;
+	border: 2px solid rgb(131, 56, 236);
+	border-radius: 10px;</string>
             </property>
             <property name="text">
              <string>NUC2</string>
@@ -1022,11 +1259,14 @@ WebSocket</string>
           </property>
           <property name="font">
            <font>
-            <pointsize>11</pointsize>
+            <pointsize>12</pointsize>
            </font>
           </property>
           <property name="title">
            <string>Arm</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
           <widget class="QPushButton" name="Button_Arm">
            <property name="geometry">
@@ -1042,6 +1282,12 @@ WebSocket</string>
              <pointsize>15</pointsize>
             </font>
            </property>
+           <property name="styleSheet">
+            <string notr="true">	color: rgb(58, 134, 255);
+	background-color: white;
+	border: 3px solid rgb(58, 134, 255);
+	border-radius: 15px;</string>
+           </property>
            <property name="text">
             <string>Arm</string>
            </property>
@@ -1054,6 +1300,12 @@ WebSocket</string>
              <width>89</width>
              <height>31</height>
             </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">	color: rgb(58, 134, 255);
+	background-color: white;
+	border: 2px solid rgb(58, 134, 255);
+	border-radius: 15px;</string>
            </property>
            <property name="text">
             <string>Arm_joy</string>
@@ -1073,6 +1325,12 @@ WebSocket</string>
              <pointsize>10</pointsize>
             </font>
            </property>
+           <property name="styleSheet">
+            <string notr="true">	color: rgb(58, 134, 255);
+	background-color: white;
+	border: 2px solid rgb(58, 134, 255);
+	border-radius: 15px;</string>
+           </property>
            <property name="text">
             <string>Arm_key_sub</string>
            </property>
@@ -1080,11 +1338,17 @@ WebSocket</string>
           <widget class="QPushButton" name="Button_Arm_service">
            <property name="geometry">
             <rect>
-             <x>10</x>
+             <x>8</x>
              <y>200</y>
-             <width>89</width>
+             <width>91</width>
              <height>31</height>
             </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">	color: rgb(58, 134, 255);
+	background-color: white;
+	border: 2px solid rgb(58, 134, 255);
+	border-radius: 15px;</string>
            </property>
            <property name="text">
             <string>Arm_service</string>
@@ -1095,7 +1359,7 @@ WebSocket</string>
             <rect>
              <x>110</x>
              <y>80</y>
-             <width>41</width>
+             <width>31</width>
              <height>31</height>
             </rect>
            </property>
@@ -1115,6 +1379,12 @@ WebSocket</string>
              <height>31</height>
             </rect>
            </property>
+           <property name="styleSheet">
+            <string notr="true">	color: rgb(255, 0, 110);
+	background-color: white;
+	border: 2px solid rgb(255, 0, 110);
+	border-radius: 15px;</string>
+           </property>
            <property name="text">
             <string>Off</string>
            </property>
@@ -1127,6 +1397,12 @@ WebSocket</string>
              <width>71</width>
              <height>31</height>
             </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">	color: rgb(255, 0, 110);
+	background-color: white;
+	border: 2px solid rgb(255, 0, 110);
+	border-radius: 15px;</string>
            </property>
            <property name="text">
             <string>Off</string>
@@ -1141,6 +1417,12 @@ WebSocket</string>
              <height>31</height>
             </rect>
            </property>
+           <property name="styleSheet">
+            <string notr="true">	color: rgb(255, 0, 110);
+	background-color: white;
+	border: 2px solid rgb(255, 0, 110);
+	border-radius: 15px;</string>
+           </property>
            <property name="text">
             <string>Off</string>
            </property>
@@ -1153,6 +1435,12 @@ WebSocket</string>
              <width>71</width>
              <height>31</height>
             </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">	color: rgb(255, 0, 110);
+	background-color: white;
+	border: 2px solid rgb(255, 0, 110);
+	border-radius: 15px;</string>
            </property>
            <property name="text">
             <string>Off</string>
@@ -1220,6 +1508,12 @@ WebSocket</string>
              <pointsize>12</pointsize>
             </font>
            </property>
+           <property name="styleSheet">
+            <string notr="true">	color: rgb(251, 86, 7);
+	background-color: Ivory;
+	border: 3px solid rgb(251, 86, 7);
+	border-radius: 15px;</string>
+           </property>
            <property name="text">
             <string>NUC2 Connect</string>
            </property>
@@ -1246,6 +1540,12 @@ WebSocket</string>
              <height>25</height>
             </rect>
            </property>
+           <property name="styleSheet">
+            <string notr="true">	color: rgb(251, 86, 7);
+	background-color: white;
+	border: 2px solid rgb(255, 190, 11);
+	border-radius: 10px;</string>
+           </property>
            <property name="text">
             <string>teleop_keyboard_pub</string>
            </property>
@@ -1260,6 +1560,11 @@ WebSocket</string>
             <height>25</height>
            </rect>
           </property>
+          <property name="styleSheet">
+           <string notr="true">	color: white;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 190, 11, 255), stop:1 rgba(251, 86, 7, 255));
+	border-radius: 10px;</string>
+          </property>
           <property name="text">
            <string>Auto_drive</string>
           </property>
@@ -1272,6 +1577,11 @@ WebSocket</string>
             <width>121</width>
             <height>25</height>
            </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">	color: white;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(131, 56, 236, 255), stop:1 rgba(58, 134, 255, 255));
+	border-radius: 10px;</string>
           </property>
           <property name="text">
            <string>Remote_control</string>
@@ -1286,8 +1596,16 @@ WebSocket</string>
             <height>91</height>
            </rect>
           </property>
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
           <property name="title">
            <string>Joy Mode</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
           <widget class="QLabel" name="state_label_8">
            <property name="geometry">
@@ -1317,7 +1635,6 @@ WebSocket</string>
           </widget>
          </widget>
          <zorder>groupBox_5</zorder>
-         <zorder>frame_5</zorder>
          <zorder>frame_4</zorder>
          <zorder>frame_3</zorder>
          <zorder>frame_2</zorder>
@@ -1341,6 +1658,7 @@ WebSocket</string>
          <zorder>Arm</zorder>
          <zorder>Button_Auto_drive_Mode</zorder>
          <zorder>Button_Remote_control_Mode</zorder>
+         <zorder>frame_5</zorder>
         </widget>
        </widget>
       </widget>

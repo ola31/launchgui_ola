@@ -156,8 +156,8 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
    cat1_img.load(":/images/cat1.jpg");
    cat2_img.load(":/images/cat2.jpg");
 
-   ui.label_7->setPixmap(cat1_img);
-   ui.label_9->setPixmap(cat2_img);
+   //ui.label_7->setPixmap(cat1_img);
+   //ui.label_9->setPixmap(cat2_img);
    ui.label_11->setPixmap(KUDOS_img);
 
 
